@@ -1,0 +1,232 @@
+{
+    "AuxAudioDevice1": {
+        "deinterlace_field_order": 0,
+        "deinterlace_mode": 0,
+        "enabled": true,
+        "flags": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": [],
+            "libobs.unmute": []
+        },
+        "id": "coreaudio_input_capture",
+        "mixers": 15,
+        "muted": false,
+        "name": "Mic/Aux",
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "settings": {
+            "device_id": "default"
+        },
+        "sync": 0,
+        "volume": 1.0
+    },
+    "current_program_scene": "Scene",
+    "current_scene": "Scene",
+    "current_transition": "Fade",
+    "name": "Kabisa - Lunch & learn",
+    "quick_transitions": [
+        {
+            "duration": 300,
+            "hotkeys": [],
+            "id": 1,
+            "name": "Cut"
+        },
+        {
+            "duration": 300,
+            "hotkeys": [],
+            "id": 2,
+            "name": "Fade"
+        }
+    ],
+    "scene_order": [
+        {
+            "name": "Scene"
+        }
+    ],
+    "sources": [
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "display_capture",
+            "mixers": 0,
+            "muted": false,
+            "name": "Display Capture",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "crop_mode": 0,
+                "display": 1
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "coreaudio_input_capture",
+            "mixers": 15,
+            "muted": false,
+            "name": "Audio Input Capture",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "device_id": "AppleUSBAudioEngine:Burr-Brown from TI:USB audio CODEC:14200000:2,1"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 1,
+            "hotkeys": {},
+            "id": "av_capture_input",
+            "mixers": 0,
+            "muted": false,
+            "name": "Video Capture Device 2",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "device": "0x14100000046d082d",
+                "device_name": "HD Pro Webcam C920",
+                "frame_rate": {
+                    "denominator": 1000000.0,
+                    "numerator": 30000030.0
+                },
+                "preset": "AVCaptureSessionPreset960x540",
+                "resolution": "{\n    \"height\": 576,\n    \"width\": 1024\n}",
+                "use_preset": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Audio Input Capture": [],
+                "libobs.hide_scene_item.Display Capture": [],
+                "libobs.hide_scene_item.Video Capture Device 2": [],
+                "libobs.show_scene_item.Audio Input Capture": [],
+                "libobs.show_scene_item.Display Capture": [],
+                "libobs.show_scene_item.Video Capture Device 2": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "muted": false,
+            "name": "Scene",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Audio Input Capture",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Display Capture",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.7473958730697632,
+                            "y": 1.7472221851348877
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Video Capture Device 2",
+                        "pos": {
+                            "x": 1936.0,
+                            "y": 1284.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.3947917222976685,
+                            "y": 1.394444465637207
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        }
+    ],
+    "transition_duration": 300,
+    "transitions": []
+}
